@@ -1,0 +1,120 @@
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    body, html {
+        width: 100%;
+        height: 100%;
+        background-color: #fcf4f4;
+        display: flex;
+        justify-content: flex-start; 
+        align-items: flex-start; 
+        /* display: grid; 
+        grid-template-columns: repeat(4, 1fr); */
+        flex-wrap: wrap;
+        gap: 30px;
+        margin: 20px;
+        overflow: visible;
+        margin-left: 40px;
+    }
+    
+    .card1 {
+        
+        width: 350px; 
+       padding: 20px 35px; 
+        background-color: #fff;
+        border-radius: 5px;
+        padding: 20px;
+        text-align: center;
+        position: relative; 
+       grid-gap: 40px;
+    }
+
+    .big {
+        width: 100%;
+        height: 30%; 
+        background-color: #014;
+        display: flex; 
+        justify-content: center; 
+        align-items: center; 
+        
+    }
+    
+    .big #one {
+        width: 310px; 
+        height: 100px; 
+        background-repeat: no-repeat;
+        object-fit: cover;
+        border-radius: 1px; 
+    }
+   
+
+    .profile {
+        position: relative; 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: white;
+        border-radius: 8px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        padding: 10px;
+        margin-bottom: 20px;
+    }
+    
+    .profile img{
+        border-radius: 50%;
+        width: 65px;
+        height: 60px;
+        object-fit: cover;
+        margin-top: -20px;
+    }
+
+    .menu-dots {
+        font-size: 30px; 
+        font-weight: 500;
+        cursor: pointer; 
+        position: absolute; 
+        right: 10px; 
+        top: 15px; 
+        font-size: 24px;
+        color: #555;
+    }
+    
+    .card1 h4{
+        color: #555;
+        font-weight: 700;
+    }
+
+    .card1 p{
+        font-weight: 500;
+        color: #555;
+    }
+    .line{
+         width: 80px;
+         height: 2px;
+         background-color: #9e9b9b;
+         margin: 20px auto;
+    }
+    .inside {
+        color: #000;
+        display: flex; 
+        justify-content: space-between; 
+        margin-top: 15px; 
+        margin-bottom: 20px;
+    }
+    
+    .media, .followers, .following {
+        flex: 1; 
+        color: #555;
+        text-align: center; 
+        font-size: 20px;
+    }
+    
+    .media h1, .followers h1, .following h1 {
+        margin-bottom: 5px; 
+        color: #000;
+        font-size: 30px;
+    }
